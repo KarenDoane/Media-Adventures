@@ -41,9 +41,11 @@
 header, footer, section {
   padding: 5%;
 }
+
+
 /* Typography */
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 900;
 }
 h2 {
@@ -73,5 +75,5 @@ header {
   background-position: center;
   color: white;
   text-align: center;
-  min-height: 90vh;
+  min-height: 50vh;
 }
