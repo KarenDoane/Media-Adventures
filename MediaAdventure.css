@@ -51,6 +51,10 @@ h2 {
   font-weight: bold;
 
 }
+span {
+  position: center;
+  
+}
 
 h3 {
   font-size: 1.5rem;
@@ -59,4 +63,15 @@ h3 {
 }
 p {
   font-size: .075
+}
+
+/* Header instructions */
+header {
+  background-image: url("Images/Sunsetsunrise.jpg");
+  background-color: #445A43;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  min-height: 90vh;
 }
