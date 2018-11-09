@@ -21,41 +21,42 @@
   <!-- my CSS file -->
   <link href="MediaAdventure.css" type="text/css" rel="stylesheet" />
 
-  <!-- Below the head and body is where ANYTHING that will be visible on the website is placed  -->
 </head>
+  <!-- Below the head and body is where ANYTHING that will be visible on the website is placed  -->
+
 <body>
   <header class="grid-middle-center">
     <!--  In order to keep both the h1 and h2 etc included in this class, a div needs to be created to encompass this as a whole  -->
-    <div>
+    <div class="col-12">
       <h1 class="center-top"> Media Adventures </h1>
-      <h2 class="grid-spaceAround"><span> Be Seen.</span> <span> Be Heard.</span> <span> Be You.</span> </h2>
-      <!-- I would like to put the MENU in the upper right corner and have it FIXED.  I would also like to have it pop out or take the user to the nav bar div  -->
-
+      <h2 class=""><span> Be Seen.</span> <span> Be Heard.</span> <span> Be You.</span> </h2>
     </div>
+      <!-- I would like to put the MENU in the upper right corner and have it FIXED.  I would also like to have it pop out or take the user to the nav bar div  -->
   </header>
+
   <!-- This Section is where the Body of the website is written between the header and footer -->
   <section class="spaceAround">
     <nav class="grid">
       <!-- Nav Bar goes here.  These will have "click thru" to the corresponding  -->
       <div class="col-2_sm-4">
-      <a href="about-page"> About </a>
-    </div>
-    <div class="col-2_sm-4">
-      <a href="services-page"> Services </a>
-    </div>
-    <div class="col-2_sm-4">
-      <a href="portfolio-page"> Portfolio </a>
-    </div>
-    <div class="col-2_sm-4">
-      <a href="testimonials-page"> Testimonials </a>
-    </div>
-    <div class="col-2_sm-4">
-      <a href="blog-page"> Blogs </a>
-    </div>
-    <div class="col-2_sm-4S">
-      <a href="contact-page"> Get In Touch </a>
-    </div>
-  </nav>
+        <a href="about-page"> About </a>
+      </div>
+      <div class="col-2_sm-4">
+        <a href="services-page"> Services </a>
+      </div>
+      <div class="col-2_sm-4">
+        <a href="portfolio-page"> Portfolio </a>
+      </div>
+      <div class="col-2_sm-4">
+        <a href="testimonials-page"> Testimonials </a>
+      </div>
+      <div class="col-2_sm-4">
+        <a href="blog-page"> Blogs </a>
+      </div>
+      <div class="col-2_sm-4">
+        <a href="contact-page"> Get In Touch </a>
+      </div>
+    </nav>
   </section>
 
   <section class="grid padding-none">
@@ -67,7 +68,6 @@
     <div class="col-4_xs-12 bg-about">
       <!-- Image of About goes here  -->
     </div>
-
   </section>
 
   <!-- This section is the four grid of services offered.  These include a bg-color, hover over the h3 to take us to a corresponding page that is exactly like the About Us page. -->
@@ -104,11 +104,11 @@
   <!--This section is for my Testimonials and Logos.  This will be two grids, one for the head shot, title and para x 4; the other part of the grid will have a "Companies we've worked with" logos  -->
   <section class="grid padding-none bg-#F6DBB5">
 
-      <div class="col-12-middle">  <!-- I want to CENTER this heading but don't know how in HTML  -->
-        <h3 class="text-center"> What people say about our work </h3>
-       </div>
-<!-- make these each their own div with corresponding col-number and close off -->
-    <div class="col-4_xs-12">
+    <div class="col-12">  <!-- I want to CENTER this heading but don't know how in HTML  -->
+      <h3 class="text-center"> What people say about our work </h3>
+    </div>
+    <!-- make these each their own div with corresponding col-number and close off -->
+    <div class="col-6_xs-12">
 
       <img> Kate Toon head shot </img>
       <h4> Kate Toon - company name </h4>
@@ -121,7 +121,7 @@
       <p> "lorem lorem lorem she's great" </p>
     </div>
 
-    <div>
+    <div class="col-6_xs-12">
       <img> Steve O'Malley head shot </img>
       <h4> Steve O'Malley - company name </h4>
 
@@ -133,21 +133,18 @@
       <p> "Lorem ipsum dolor sit amet, consectetur adipisicing elit," </p>
 
     </div>
-<section class="spaceAround">
-    <!-- This div is where I am placing the logos of companies I've worked with so not sure if I should have to Col Width set at 1 or 6 or 12, and if I should do xs-12 or sm md lg??? -->
-    <div class="grid">
+  </section>
 
+  <section class="grid">
+    <!-- This div is where I am placing the logos of companies I've worked with so not sure if I should have to Col Width set at 1 or 6 or 12, and if I should do xs-12 or sm md lg??? -->
+    <div class="col-12">
       <!-- I want to CENTER this heading but don't know how in HTML  -->
       <h3> Companies we've worked for </h3>
     </div>
-    <div class="grid">
+
       <!-- ??? Should I href the website link to each logo or to the Logo icon/image??? -->
       <!-- This Section is where the Body of the website is written between the header and footer -->
 
-        <div class="col-2">
-
-      <a href="Ironman-img"> "Ironman-img"</a>
-    </div>
     <div class="col-2">
       <a href="Ironman-img"> "Ironman-img"</a>
     </div>
@@ -163,30 +160,29 @@
     <div class="col-2">
       <a href="Ironman-img"> "Ironman-img"</a>
     </div>
-  </div>
+    <div class="col-2">
+      <a href="Ironman-img"> "Ironman-img"</a>
+    </div>
   </section>
 
-  <section class="spaceAround">
-    <div>
+  <section class="grid">
+    <div class="col-12">
       <!-- I want the Blog headline to be align-left??????  -->
       <h3> Blogs </h3>
     </div>
-
-  <div class="grid">
 
     <!-- How to I have these line up as 3 in a row across the grid in a screen?   -->
     <div class="col-4_xs-12">
 
       <a href="blog1"> Blog One </a>
-      <img>  </img>
+      <img src=""> <!-- Images do not need a closing tag -->
       <p> little blurb <a href="Read more"> Read more... </a> </p>
-
     </div>
 
     <div class="col-4_xs-12">
 
       <a href="blog2"> Blog Two </a>
-      <img>  </img>
+      <img>  </img> <!-- Images do not need a closing tag -->
       <p> little blurb <a href="Read more"> Read more... </a> </p>
 
     </div>
@@ -194,52 +190,52 @@
     <div class="col-4_xs-12">
 
       <a href="blog3"> Blog Three </a>
-      <img>  </img>
+      <img>  </img> <!-- Images do not need a closing tag -->
       <p> little blurb <a href="Read more"> Read more... </a> </p>
 
     </div>
-  </div>
-
   </section>
 
   <!-- In this Footer section, where do I identify the Background Color? -->
-  <footer>
+  <footer class="grid">
 
+    <div class="col-6_xs-12">
+        <h3> Let's Chat! </h3>
+      <p>
+        <a href="hello-email-link"> email icon hello@mediaadventures.com.au </a>
+      </p>
+      <p>
+        <a href="hello-mobile-link"> phone icon +614 48 404 555 </a>
+      </p>
+      <a href="FB-link"> FB icon  </a>
+      <a href="Insta-link"> Insta icon  </a>
+      <a href="Linkedin-link"> Linkedin icon  </a>
+      <a href="twitter-link"> twitter icon  </a>
+    </div>
 
-  <div class="grid">
+    <div class=col-6_xs-12>
+      <h3> We love letters </h3>
+      <p>  Media Adventures </p>
+      <p>  P.O. Box </p>
+      <p>  West End, QLD  4101 </p>
+      <p>  AUSTRALIA </p>
 
-  <div class="col-6_xs-12">
-      <h3> Let's Chat! </h3>
-    <p>
-      <a href="hello-email-link"> email icon hello@mediaadventures.com.au </a>
-    </p>
-    <p>
-      <a href="hello-mobile-link"> phone icon +614 48 404 555 </a>
-    </p>
-    <a href="FB-link"> FB icon  </a>
-    <a href="Insta-link"> Insta icon  </a>
-    <a href="Linkedin-link"> Linkedin icon  </a>
-    <a href="twitter-link"> twitter icon  </a>
-  </div>
+    </div>
 
-  <div class=col-6_xs-12>
-    <h3> We love letters </h3>
-    <p>  Media Adventures </p>
-    <p>  P.O. Box </p>
-    <p>  West End, QLD  4101 </p>
-    <p>  AUSTRALIA </p>
+    <div class="col-12 grid-spaceAround">
+      <div class="col-3">
+        <!--  Not sure how to add the T & C's here along with other text-->
+        <p> Website created by Media Adventures </p>
+      </div>
+      <div class="col-3">
+        <!--  Not sure how to add the T & C's here along with other text-->
+        <p>  T & C's  </p>
+      </div>
+      <div class="col-3">
+        <!--  Not sure how to add the T & C's here along with other text-->
+        <p> copyright 2018 </p>
+      </div>
+    </div>
+  </footer>
 
-  </div>
-
-</div>
-<footer>
-  <div class="grid-spaceAround">
-    <!--  Not sure how to add the T & C's here along with other text-->
-    <p> Website created by Media Adventures </p>
-    <p>  T & C's  </p>
-    <p> copyright 2018 </p>
-  </div>
-</footer>
-
-
-  </html>
+</html>
