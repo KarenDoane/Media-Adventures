@@ -14,47 +14,205 @@
   <!-- Gridlex -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<!-- COLOR Palette
-#FF2323 - mango; #06AED5 - light blue; #005IA3 - dark blue; #FFD337 - yellow; #F7F9F9 - white-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- COLOR Palette
+  #FF2323 - mango; #06AED5 - light blue; #005IA3 - dark blue; #FFD337 - yellow; #F7F9F9 - white-->
 
   <!-- my CSS file -->
-    <link href="MediaAdventure.css" type="text/css" rel="stylesheet" />
+  <link href="MediaAdventure.css" type="text/css" rel="stylesheet" />
 
-<!-- Below the head and body is where ANYTHING that will be visible on the website is placed  -->
+  <!-- Below the head and body is where ANYTHING that will be visible on the website is placed  -->
 </head>
 <body>
   <header class="grid-middle-center">
-<!--  In order to keep both the h1 and h2 etc included in this class, a div needs to be created to encompass this as a whole  -->
-<div>
-  <h1 class="center-top"> Media Adventures </h1>
-  <h2 class="grid-spaceAround"><span> Be Seen.</span> <span> Be Heard.</span> <span> Be You.</span> </h2>
-  <i class="fas fa-f0c9"> grid </i>
+    <!--  In order to keep both the h1 and h2 etc included in this class, a div needs to be created to encompass this as a whole  -->
+    <div>
+      <h1 class="center-top"> Media Adventures </h1>
+      <h2 class="grid-spaceAround"><span> Be Seen.</span> <span> Be Heard.</span> <span> Be You.</span> </h2>
+      <!-- I would like to put the MENU in the upper right corner and have it FIXED.  I would also like to have it pop out or take the user to the nav bar div  -->
 
- </div>
-</header>
-<!-- This is where the Body of the website is written between the header and footer -->
-<section>
-  <div class="nav-bar"> HOW DO I ADD A NAV BAR HERE?
-   </div>
-  <div>
+    </div>
+  </header>
+  <!-- This Section is where the Body of the website is written between the header and footer -->
+  <section>
+    <nav>
+      <!-- Nav Bar goes here.  These will have "click thru" to the corresponding  -->
+      <a href="about-page"> About </a>
+      <a href="services-page"> Services </a>
+      <a href="portfolio-page"> Portfolio </a>
+      <a href="testimonials-page"> Testimonials </a>
+      <a href="blog-page"> Blogs </a>
+      <a href="contact-page"> Get In Touch </a>
+    </nav>
+  </section>
 
+  <section class="grid padding-none">
+    <div class="col-8_xs-12 padding-5">
+      <h2> About <span> Us </span> </h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse
+      </p>
+    </div>
+    <div class="col-4_xs-12 bg-about">
+      <!-- Image of About goes here  -->
+    </div>
+
+  </section>
+
+  <!-- This section is the four grid of services offered.  These include a bg-color, hover over the h3 to take us to a corresponding page that is exactly like the About Us page. -->
+  <section class="grid padding-none">
+    <div class="col-6_xs-12 bg-mango">
+
+      <a href="pr.html">
+        <h3> PR & Brand </h3>
+      </a>
+    </div>
+
+    <div class="col-6_xs-12 bg-blue">
+
+      <a href="content.html">
+        <h3> Content & SEO </h3>
+      </a>
+    </div>
+
+    <div class="col-6_xs-12 bg-yellow">
+
+      <a href="content.html">
+        <h3> Website Development </h3>
+      </a>
+    </div>
+
+    <div class="col-6_xs-12 bg-terracotta">
+
+      <a href="content.html">
+        <h3> Media & Communications </h3>
+      </a>
+    </div>
+  </section>
+
+  <!--This section is for my Testimonials and Logos.  This will be two grids, one for the head shot, title and para x 4; the other part of the grid will have a "Companies we've worked with" logos  -->
+  <section class="grid padding-none bg-#F6DBB5">
+
+      <div class="col-12">  <!-- I want to CENTER this heading but don't know how in HTML  -->
+        <h3 class="text-center"> What people say about our work </h3>
+       </div>
+<!-- make these each their own div with corresponding col-number and close off -->
+    <div class="col-4_xs-12">
+
+      <img> Kate Toon head shot </img>
+      <h4> Kate Toon - company name </h4>
+
+      <p> "Lorem ipsum dolor sit amet, consectetur adipisicing elit," </p>
+
+      <img> John Duke head shot </img>
+      <h4> John Duke - Global VP Ironman </h4>
+
+      <p> "lorem lorem lorem she's great" </p>
+    </div>
+
+    <div>
+      <img> Steve O'Malley head shot </img>
+      <h4> Steve O'Malley - company name </h4>
+
+      <p> "Lorem ipsum dolor sit amet, consectetur adipisicing elit," </p>
+
+      <img> Lisa Monks - head shot </img>
+      <h4> Lisa Monks - Chipmonk Media </h4>
+
+      <p> "Lorem ipsum dolor sit amet, consectetur adipisicing elit," </p>
+
+    </div>
+    <!-- This div is where I am placing the logos of companies I've worked with so not sure if I should have to Col Width set at 1 or 6 or 12, and if I should do xs-12 or sm md lg??? -->
+    <div class="col-6_xs-12">
+
+      <!-- I want to CENTER this heading but don't know how in HTML  -->
+      <h3> Companies we've worked for </h3>
+
+      <!-- ??? Should I href the website link to each logo or to the Logo icon/image??? -->
+
+      <a href="Ironman-img"> "Ironman-img"</a>
+      <a href="Ironman-img"> "Ironman-img"</a>
+      <a href="Ironman-img"> "Ironman-img"</a>
+      <a href="Ironman-img"> "Ironman-img"</a>
+      <a href="Ironman-img"> "Ironman-img"</a>
+      <a href="Ironman-img"> "Ironman-img"</a>
+    </div>
+
+  </section>
+
+  <section>
+    <div>
+      <!-- I want the Blog headline to be align-left??????  -->
+      <h3> Blogs </h3>
+    </div>
+
+  <div class="grid">
+
+    <!-- How to I have these line up as 3 in a row across the grid in a screen?   -->
+    <div class="col-4_xs-12">
+
+      <a href="blog1"> Blog One </a>
+      <img>  </img>
+      <p> little blurb <a href="Read more"> Read more... </a> </p>
+
+    </div>
+
+    <div class="col-4_xs-12">
+
+      <a href="blog2"> Blog Two </a>
+      <img>  </img>
+      <p> little blurb <a href="Read more"> Read more... </a> </p>
+
+    </div>
+
+    <div class="col-4_xs-12">
+
+      <a href="blog3"> Blog Three </a>
+      <img>  </img>
+      <p> little blurb <a href="Read more"> Read more... </a> </p>
+
+    </div>
   </div>
 
+  </section>
 
-  <div class="col-6_xs-12 padding-5">
-    <h3>
-        Where to you want your <span> brand </span> to go?
-    </h3>
+  <!-- In this Footer section, where do I identify the Background Color? -->
+  <footer>
 
+  <div class="grid">  <h3> Let's Chat! </h3>
+  </div>
+  <div class="col-6_xs-12">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <a href="hello-email-link"> email icon hello@mediaadventures.com.au </a>
+      <a href="hello-mobile-link"> phone icon +614 48 404 555 </a>
     </p>
+  </div>
 
-    </div>
-    <div class="col-6_xs-12 bg-D24E40" >
-    </div>
-</section>
+  <div class="col-6_xs-12">
+    <h3> We are very social </h3>
+  </div>
 
- </body>
-</html>
+  <div class="col-6_xs-12">
+    <a href="FB-link"> FB icon  </a>
+    <a href="Insta-link"> Insta icon  </a>
+    <a href="Linkedin-link"> Linkedin icon  </a>
+    <a href="twitter-link"> twitter icon  </a>
+  </div>
+
+  <div class=col-6_xs-12>
+    <h4> We love letters </h4>
+    <p>  Media Adventures
+      P.O. Box
+      West End, QLD  4101
+      AUSTRALIA
+    </p>
+  </div>
+  
+<footer>
+  <div class="col-12">
+    <!--  Not sure how to add the T & C's here along with other text-->
+    <p> Web created by Media Adventures  T & C's   copyright 2018 </p>
+  <div>
+</footer>
+
+
+  </html>
