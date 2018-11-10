@@ -9,7 +9,8 @@
   <!-- These are my CSS links, the External resources (fonts, etc) are put first,
   and my own css last -->
   <!-- google font -->
-  <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet"> -->
 
   <!-- Gridlex -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
@@ -28,6 +29,7 @@
   <header class="grid-middle-center">
     <!--  In order to keep both the h1 and h2 etc included in this class, a div needs to be created to encompass this as a whole  -->
     <div class="col-12">
+      <!-- <h1 class="c-intro__title o-h1 js-loader-title js-transition-title">Adventure Reimagined</h1> -->
       <h1 class="center-top"> Media Adventures </h1>
       <h2 class=""><span> Be Seen.</span> <span> Be Heard.</span> <span> Be You.</span> </h2>
     </div>
@@ -35,65 +37,65 @@
   </header>
 
   <!-- This Section is where the Body of the website is written between the header and footer -->
-  <section class="spaceAround">
-    <nav class="grid">
+  <section class="padding-0 spaceAround">
+
+    <nav class="center header-nav">
       <!-- Nav Bar goes here.  These will have "click thru" to the corresponding  -->
-      <div class="col-2_sm-4">
+
         <a href="about-page"> About </a>
-      </div>
-      <div class="col-2_sm-4">
+
         <a href="services-page"> Services </a>
-      </div>
-      <div class="col-2_sm-4">
+
         <a href="portfolio-page"> Portfolio </a>
-      </div>
-      <div class="col-2_sm-4">
+
         <a href="testimonials-page"> Testimonials </a>
-      </div>
-      <div class="col-2_sm-4">
+
         <a href="blog-page"> Blogs </a>
-      </div>
-      <div class="col-2_sm-4">
+
         <a href="contact-page"> Get In Touch </a>
-      </div>
+
+
     </nav>
   </section>
 
-  <section class="grid padding-none">
-    <div class="col-8_xs-12 padding-5">
-      <h2> About <span> Us </span> </h2>
+  <section class="grid bg-eggshell padding-top-3 padding-bottom-2">
+    <div class="col-8_xs-12-middle padding-2">
+      <h2 class="margin-bottom-4"> About <span> Us </span> </h2>
+
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse
       </p>
     </div>
-    <div class="col-4_xs-12 bg-about">
+    <div class="col-4_xs-12 ">
+      <div class="bg-girllooking">
+       </div>
       <!-- Image of About goes here  -->
     </div>
   </section>
 
   <!-- This section is the four grid of services offered.  These include a bg-color, hover over the h3 to take us to a corresponding page that is exactly like the About Us page. -->
-  <section class="grid padding-none">
-    <div class="col-6_xs-12 bg-mango">
+  <section class="grid-spaceBetween padding-none">
+    <div class="col-5_xs-12 center padding-5 margin-bottom-5 bg-maroon">
 
       <a href="pr.html">
-        <h3> PR & Brand </h3>
+        <h3 > PR & Brand </h3>
       </a>
     </div>
 
-    <div class="col-6_xs-12 bg-blue">
+    <div class="col-5_xs-12 center margin-bottom-5 padding-5 bg-rose">
 
       <a href="content.html">
         <h3> Content & SEO </h3>
       </a>
     </div>
 
-    <div class="col-6_xs-12 bg-yellow">
+    <div class="col-5_xs-12 center padding-5 bg-rose">
 
       <a href="content.html">
         <h3> Website Development </h3>
       </a>
     </div>
 
-    <div class="col-6_xs-12 bg-terracotta">
+    <div class="col-5_xs-12 center padding-5 bg-maroon">
 
       <a href="content.html">
         <h3> Media & Communications </h3>
@@ -182,7 +184,7 @@
     <div class="col-4_xs-12">
 
       <a href="blog2"> Blog Two </a>
-      <img>  </img> <!-- Images do not need a closing tag -->
+      <img  src="" > <!-- Images do not need a closing tag -->
       <p> little blurb <a href="Read more"> Read more... </a> </p>
 
     </div>
@@ -190,7 +192,7 @@
     <div class="col-4_xs-12">
 
       <a href="blog3"> Blog Three </a>
-      <img>  </img> <!-- Images do not need a closing tag -->
+      <img src=""> <!-- Images do not need a closing tag -->
       <p> little blurb <a href="Read more"> Read more... </a> </p>
 
     </div>
@@ -199,7 +201,7 @@
   <!-- In this Footer section, where do I identify the Background Color? -->
   <footer class="grid">
 
-    <div class="col-6_xs-12">
+    <div class="col-6_xs-12 bg-jetblack">
         <h3> Let's Chat! </h3>
       <p>
         <a href="hello-email-link"> email icon hello@mediaadventures.com.au </a>
@@ -213,25 +215,25 @@
       <a href="twitter-link"> twitter icon  </a>
     </div>
 
-    <div class=col-6_xs-12>
+    <div class= "col-6_xs-12 bg-jetblack" >
       <h3> We love letters </h3>
-      <p>  Media Adventures </p>
+      <p >  Media Adventures </p>
       <p>  P.O. Box </p>
       <p>  West End, QLD  4101 </p>
       <p>  AUSTRALIA </p>
 
     </div>
 
-    <div class="col-12 grid-spaceAround">
-      <div class="col-3">
+    <div class="col-12 grid">
+      <div class="col-4">
         <!--  Not sure how to add the T & C's here along with other text-->
         <p> Website created by Media Adventures </p>
       </div>
-      <div class="col-3">
+      <div class="col-4 center">
         <!--  Not sure how to add the T & C's here along with other text-->
         <p>  T & C's  </p>
       </div>
-      <div class="col-3">
+      <div class="col-4 right">
         <!--  Not sure how to add the T & C's here along with other text-->
         <p> copyright 2018 </p>
       </div>
