@@ -19,16 +19,15 @@ font-family: 'Montserrat Alternates', sans-serif;
     color: #222;
   }
 
-  /* TEMP */
-
-
   header, footer, section {
     padding: 5%;
   }
   /* Header instructions */
   .banner {
     background-image: url("Images/Sunsetsunrise.jpg");
-    background-color: #D65E51;
+    background-attachment: fixed;
+    /* background-color: #D65E51; */
+    background-color: #FFFCE5;
     background-size: cover;
     background-position: 50% 60%;
     color: white;
@@ -39,7 +38,14 @@ font-family: 'Montserrat Alternates', sans-serif;
   .banner h2 {
     font-size: 1.7rem;
   }
+  .border-curve {
+    border-radius: 18px;
+  }
+  .far {
+    font-weight: 400;
+    font-size: x-large;
 
+  }
   header a:hover {
     transition: 2s;
     color: #222;
@@ -51,7 +57,9 @@ font-family: 'Montserrat Alternates', sans-serif;
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #D24E40;
+    /* background-color: #D24E40; */
+    /* background-color: #FFD275; */
+    background-color: #F2551D;
     left:10px;
     padding:5px;
     /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1); */
@@ -68,7 +76,6 @@ font-family: 'Montserrat Alternates', sans-serif;
 .dropdown-nav:hover .dropdown-content {
     display: block;
 }
-
   footer {
     /* background-color: #201F20; */
   }
@@ -102,8 +109,7 @@ font-family: 'Montserrat Alternates', sans-serif;
     font-size: .075;
     color: #222;
     /* color: inherit; */
-
-  }
+    }
 
   a {
     /* color: inherit; */
@@ -120,7 +126,6 @@ font-family: 'Montserrat Alternates', sans-serif;
     padding: 0.6%;
 
     /* What goes here to make the text and href turn white?: white; */
-
   }
 .padding-0 {
   padding: 0%;
@@ -174,7 +179,6 @@ font-family: 'Montserrat Alternates', sans-serif;
   background-size: cover;
   padding-bottom: 30%;
   background-image: url("images/newspaperreading.jpg");
-
 }
 .bg-websites {
   background-size:cover;
@@ -205,7 +209,7 @@ font-family: 'Montserrat Alternates', sans-serif;
   background-color: #2D1C22;
 }
 .bg-yellow {
-  background-color: #A31932;
+  background-color: #FFD275;
 }
 .bg-terracotta {
   background-color: #650D1B;
