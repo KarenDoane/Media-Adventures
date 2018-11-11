@@ -23,6 +23,14 @@ font-family: 'Montserrat Alternates', sans-serif;
     padding: 5%;
   }
   /* Header instructions */
+  .banner-strip {
+     background-image: url("Images/Sunsetsunrise.jpg");
+    background-color: #445A43;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    min-height: 90vh;
+}
   .banner {
     background-image: url("Images/Sunsetsunrise.jpg");
     background-attachment: fixed;
