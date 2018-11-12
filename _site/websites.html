@@ -21,17 +21,22 @@
   #FF2323 - mango; #06AED5 - light blue; #005IA3 - dark blue; #FFD337 - yellow; #F7F9F9 - white-->
 
   <!-- my CSS file -->
-  <link href="MediaAdventure.css" type="text/css" rel="stylesheet" />
+  <link href="/MediaAdventure.css" type="text/css" rel="stylesheet" />
 
 </head>
 <!-- BODY JQ SCRIPTS GO INSIE BODY   -->
-<body>
+<body id="ma">
   <header class="grid padding-0 spaceAround">
-    <nav class="col-4_xs-12 padding-2 padding-bottom-0">
-      <h3 class="text-color-white center "> Media Adventures </h3>
+    <nav class="col-4_xs-12 padding-2 padding-btom-0">
+    <!--This Jekyll code is saying, "if this page.url IS NOT (!) = "/" this / means Index.html, it will appear there "  -->
+      
+    <a href="/" class="padding-0">
+      <h3 class="text-color-white center "> Media Adventures </h3> </a>
+      <!-- This closes the Jekyll instuctions for this header -->
+      
     </nav>
 
-    <nav class="col-8_xs12 center header-nav">
+    <nav class="col-8_xs-12 center header-nav">
       <!-- Nav Bar goes here.  These will have "click thru" to the corresponding  -->
 
         <a href="about-page"> About </a>
@@ -77,7 +82,7 @@
 </div>
 
   <div class="col-8_xs-12-middle padding-2">
-    <h2 class="margin-bottom-4">  Websites </h2>
+    <h2 class="margin-bottom-4">  Website Creation </h2>
 
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse
     </p>
@@ -127,5 +132,9 @@
     </div>
   </div>
 </footer>
+
+  <script src="jquery.js"></script>
+  <script src="main.js"> </script>
+
 </body>
 </html>

@@ -10,6 +10,11 @@
 
 
   }
+
+img {
+  max-width: 100%;
+}
+
   body {
         /* font-family: karla,sans-serif; */
     /* font-family: 'Hind Guntur', sans-serif; */
@@ -22,68 +27,6 @@ font-family: 'Montserrat Alternates', sans-serif;
   header, footer, section {
     padding: 5%;
   }
-  /* Header instructions */
-  .banner-strip {
-     background-image: url("Images/Sunsetsunrise.jpg");
-    background-color: #445A43;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    min-height: 90vh;
-}
-  .banner {
-    background-image: url("Images/Sunsetsunrise.jpg");
-    background-attachment: fixed;
-    /* background-color: #D65E51; */
-    background-color: #FFFCE5;
-    background-size: cover;
-    background-position: 50% 60%;
-    color: white;
-    text-align: center;
-    min-height: 60vh;
-    font-size: 1.7rem;
-  }
-  .banner h2 {
-    font-size: 1.7rem;
-  }
-  .border-curve {
-    border-radius: 18px;
-  }
-  .far {
-    font-weight: 400;
-    font-size: x-large;
-
-  }
-  header a:hover {
-    transition: 2s;
-    color: #222;
-  }
-  .header-nav {
-    padding: 1% 2% 0;
-  }
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    /* background-color: #D24E40; */
-    /* background-color: #FFD275; */
-    background-color: #F2551D;
-    left:10px;
-    padding:5px;
-    /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1); */
-}
-.dropdown-content a {
-  display:block;
-  padding:5px 15px;
-  text-align:left;
-  white-space:nowrap;
-}
-.dropdown-nav {
-  position:relative;
-}
-.dropdown-nav:hover .dropdown-content {
-    display: block;
-}
   footer {
     /* background-color: #201F20; */
   }
@@ -93,6 +36,17 @@ font-family: 'Montserrat Alternates', sans-serif;
     padding: 1rem;
   }
 
+  nav {
+
+    background-color: #2D1C22;
+    /* background-color: #FCE864; */
+    background-size: cover;
+    padding: 0.6%;
+
+    /* What goes here to make the text and href turn white?: white; */
+  }
+
+  /* Typography goes here: GENERAL anchors, headers, paragraphs, spans */
   /* Typography */
   h1 {
     font-size: 6rem;
@@ -125,20 +79,15 @@ font-family: 'Montserrat Alternates', sans-serif;
     text-decoration: none;
     display: inline-block;
   }
-
-  nav {
-
-    background-color: #2D1C22;
-    /* background-color: #FCE864; */
-    background-size: cover;
-    padding: 0.6%;
-
-    /* What goes here to make the text and href turn white?: white; */
+  a.link-color {
+    color: #623C49;
   }
+/* Modular or Helper classes go here */
+
 .padding-0 {
   padding: 0%;
 }
-.padding-2 {
+#ma .padding-2 {
   padding: 2%;
 }
 .padding-5 {
@@ -160,16 +109,28 @@ font-family: 'Montserrat Alternates', sans-serif;
   padding-left: 3%;
   padding-right: 3%;
 }
-.padding-bottom-0 {
+.padding-btom-0 {
   padding-bottom: 0;
 }
-.padding-bottom-3 {
+.padding-btom-1 {
+  padding-bottom: 1%;
+}
+.padding-btom-2 {
+  padding-bottom: 2%;
+}
+.padding-btom-3 {
   padding-bottom: 3%;
 }
-.margin-bottom-4 {
+.padding-btom-5 {
+  padding-bottom: 5%;
+}
+.margin-4 {
+  margin: 4%;
+}
+.margin-btom-4 {
   margin-bottom: 4%;
 }
-.margin-bottom-5 {
+.margin-btom-5 {
   margin-bottom: 5%;
 }
 .center {
@@ -177,6 +138,92 @@ font-family: 'Montserrat Alternates', sans-serif;
 }
 .right {
   text-align: right;
+}
+.left {
+  text-align: left;
+}
+
+.page-break {
+  background-image: url("Images/Sunsetsunrise.jpg");
+  background-attachment: fixed;
+  /* background-color: #D65E51; */
+  background-color: #FFFCE5;
+  background-size: cover;
+  background-position: 50% 60%;
+  min-height: 30vh;
+}
+
+  /* Header styling instructions */
+  .banner-strip {
+     background-image: url("Images/Sunsetsunrise.jpg");
+    background-color: #445A43;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    min-height: 90vh;
+}
+  .banner {
+    background-image: url("Images/sunsetgif.gif");
+    background-attachment: fixed;
+    /* background-color: #D65E51; */
+    background-color: #FFFCE5;
+    background-size: cover;
+    background-position: 50% 60%;
+    min-height: 60vh;
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .banner h2 {
+    font-size: 1.7rem;
+  }
+  .border-curve {
+    border-radius: 18px;
+  }
+  .far {
+    font-weight: 400;
+    font-size: x-large;
+
+  }
+  header a:hover {
+    transition: 2s;
+    color: #222;
+  }
+  .header-nav {
+    padding: 1% 2% 0;
+
+  }
+/*  This is Borrowed code from another source and not self-written */
+/* Dropdown code was from Codepen Deswin collections  */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #D24E40; */
+    /* background-color: #FFD275; */
+    background-color: #F2551D;
+    left:10px;
+    padding:5px;
+    /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1); */
+}
+.dropdown-content a {
+  display:block;
+  padding:5px 15px;
+  text-align:left;
+  white-space:nowrap;
+}
+.dropdown-nav {
+  position:relative;
+}
+.dropdown-nav:hover .dropdown-content {
+    display: block;
+}
+/*Footer styling instructions go here  */
+
+/* Images go here */
+.bg-sunsetgif {
+  background-image: cover;
+  padding-bottom: 90%;
+  background-image: url("images/sunsetgif.gif")
 }
 .bg-girllooking {
   background-size: cover;
@@ -188,6 +235,11 @@ font-family: 'Montserrat Alternates', sans-serif;
   padding-bottom: 30%;
   background-image: url("images/newspaperreading.jpg");
 }
+.bg-headshot {
+  background-size: cover;
+  padding-bottom:25%;
+  background-image: url("images/headshot.jpg");
+}
 .bg-websites {
   background-size:cover;
   padding-bottom: 40%;
@@ -198,6 +250,19 @@ font-family: 'Montserrat Alternates', sans-serif;
   padding-bottom: 40%;
   background-image: url("images/copywriting.jpg");
 }
+.bg-logo {
+  background-size: cover;
+  padding-bottom: 40%;
+  background-image: url("images/logo.jpg");
+  display:block;
+}
+.bg-blogs {
+  background-size: cover;
+  padding-bottom: 40%;
+  background-image: url("images/blogs.jpg");
+  display: block;
+}
+}
 .bg-search {
 
   background-size: contain;
@@ -206,6 +271,8 @@ font-family: 'Montserrat Alternates', sans-serif;
   padding-bottom: 50%;
   background-image: url("images/search.jpg");
 }
+
+/* Colors go here  */
 .bg-maroon {
   background-color: #650D1B;
 }
@@ -227,4 +294,21 @@ font-family: 'Montserrat Alternates', sans-serif;
 }
 .text-color-white {
   color: white;
+}
+/* Animation css */
+
+@keyframes FromtheDeep {
+  0%   { opacity: 0;
+  transform: scale(0); }
+  100% { opacity: 1;
+  transform: scale(1);}
+}
+.FromtheDeep {
+  animation: FromtheDeep 5s;
+}
+
+/*Media Queries go here */
+@media (max-width: 768px) {
+  h1 { font-size: 11vw;
+  }
 }

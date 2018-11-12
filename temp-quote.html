@@ -1,0 +1,73 @@
+---
+layout: default
+testimonials:
+  - name: Kate Toon
+    company: Company Name
+    review: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - name: John Toon
+    company: Company Name
+    review: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - name: Mary Toon
+    company: Company Name
+    review: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+logos:
+  - image_path: /images/logo.jpg
+  - image_path: /images/logo.jpg
+  - image_path: /images/logo.jpg
+  - image_path: /images/logo.jpg
+  - image_path: /images/logo.jpg
+  - image_path: /images/logo.jpg
+blogs:
+  - name: Blog 1
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - name: Blog 2
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - name: Blog 3
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+---
+
+<section class="grid">
+  <!-- This div is where I am placing the logos of companies I've worked with so not sure if I should have to Col Width set at 1 or 6 or 12, and if I should do xs-12 or sm md lg??? -->
+
+
+  <div class="col-12_xs-12 center">
+    <h3> Companies we've worked for </h3>
+  </div>
+
+{% for item in page.logos %}
+  <div class="col-2_sm-12 bg-logo padding-2" style="background-image:url({{item.image_path}})"></div>
+{% endfor %}
+
+</section>
+
+<section class="grid bg-eggshell padding-top-3 padding-btom-1">
+  <div class="col-12_xs-12">
+    <h3 class="center"> Latest Blogs </h3>
+  </div>
+  {% for item in page.blogs %}
+  <div class="col-4_md-6">
+    <h4 class="center"> {{item.name}} </h4>
+    <div class="bg-blogs"> </div>
+    <p class="margin-4"> "{{item.content}}" </p>
+      <!-- <a href="{{item.page}}" class="bg-blogs"</a> -->
+  </div>
+{% endfor %}
+</section>
+
+
+<!-- - - - - - - - - - - - - - >
+
+  {% for item in page.testimonials %}
+
+  <div class="col-6_sm-12 grid padding-2">
+    <div class="col-4_md-6 bg-headshot"></div>
+    <div class="col-8_md-6">
+      <h4> {{item.name}} - {{item.company}} </h4>
+
+      <p> "{{item.review}}" </p>
+    </div>
+  </div>
+
+  {% endfor %}
