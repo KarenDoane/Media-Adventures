@@ -1,0 +1,33 @@
+---
+layout: default
+title: Portfolio
+testimonials:
+  - name: Kate Toon
+    company: Company Name
+    review_html: "Karen is Great!"
+  - name: John Toon
+    company: Company Name
+    review_html: "You should hire Karen"
+  - name: Mary Toon
+    company: Company Name
+    review_html: "What are you waiting for?"
+
+---
+<section class="grid bg-eggshell padding-top-3 padding-btom-1">
+  <div class="col-12_xs-12">  <!-- I want to CENTER this heading but don't know how in HTML  -->
+    <h3 class="center"> What people say about our work </h3>
+  </div>
+  {% for item in page.testimonials %}
+
+  <div class="col-6_sm-12 grid padding-2">
+    <div class="col-4_md-6 bg-headshot"></div>
+    <div class="col-8_md-6">
+      <h4> {{item.name}} - {{item.company}} </h4>
+
+      {{item.review_html}}
+    </div>
+  </div>
+
+  {% endfor %}
+
+</section>

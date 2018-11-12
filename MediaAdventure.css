@@ -133,6 +133,9 @@ font-family: 'Montserrat Alternates', sans-serif;
 .margin-btom-5 {
   margin-bottom: 5%;
 }
+.image-50 {
+  max-width: 50%;
+}
 .center {
   text-align: center;
 }
@@ -187,8 +190,13 @@ font-family: 'Montserrat Alternates', sans-serif;
   }
   header a:hover {
     transition: 2s;
-    color: #222;
+    color: #F2551D;
+    /* color: #FFD275; */
   }
+.dropdown-content a:hover {
+  color: black;
+}
+
   .header-nav {
     padding: 1% 2% 0;
 
@@ -198,6 +206,8 @@ font-family: 'Montserrat Alternates', sans-serif;
 .dropdown-content {
     display: none;
     position: absolute;
+    color: black;
+    /* background-color: #FFD275; */
     /* background-color: #D24E40; */
     /* background-color: #FFD275; */
     background-color: #F2551D;
@@ -305,6 +315,21 @@ font-family: 'Montserrat Alternates', sans-serif;
 }
 .FromtheDeep {
   animation: FromtheDeep 5s;
+}
+@keyframes Delay {
+  0% { opacity: 0;
+    transform: scale(0); }
+  100% { opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .Delay {
+
+    animation-delay: 2s;
+  }
+
+  }
 }
 
 /*Media Queries go here */
