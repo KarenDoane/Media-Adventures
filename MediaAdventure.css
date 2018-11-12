@@ -83,15 +83,23 @@ font-family: 'Montserrat Alternates', sans-serif;
     color: #623C49;
   }
 /* Modular or Helper classes go here */
-
+.border-color-brown {
+  border-color: #650D1B;
+}
 .padding-0 {
   padding: 0%;
 }
 #ma .padding-2 {
   padding: 2%;
 }
+.padding-3 {
+  padding: 3%;
+}
 .padding-5 {
   padding: 5%;
+}
+.padding-top {
+  padding-top: inherit;
 }
 .padding-top-2 {
   padding-top: 2%;
@@ -104,6 +112,15 @@ font-family: 'Montserrat Alternates', sans-serif;
 }
 .padding-top-5 {
   padding-top: 5%;
+}
+.padding-top-7 {
+  padding-top: 7%
+}
+.padding-top-8 {
+  padding-top: 8%;
+}
+.padding-top-18 {
+  padding-top: 18%
 }
 .padding-side-3 {
   padding-left: 3%;
@@ -123,6 +140,9 @@ font-family: 'Montserrat Alternates', sans-serif;
 }
 .padding-btom-5 {
   padding-bottom: 5%;
+}
+.margin-2 {
+  margin: 2%;
 }
 .margin-4 {
   margin: 4%;
@@ -233,6 +253,9 @@ font-family: 'Montserrat Alternates', sans-serif;
     display: block;
 }
 /*Footer styling instructions go here  */
+.fab {
+  font-size: 2rem;
+}
 
 /* Images go here */
 .bg-sunsetgif {
