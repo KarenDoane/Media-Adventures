@@ -365,18 +365,17 @@ font-family: 'Montserrat Alternates', sans-serif;
 .FromtheDeep {
   animation: FromtheDeep 5s;
 }
-@keyframes Delay {
-  0% { opacity: 0;
-    transform: scale(0); }
+@keyframes DelayFromtheDeep {
+  0%   { opacity: 0;
+  transform: scale(0); }
+  30%   { opacity: 0;
+  transform: scale(0); }
   100% { opacity: 1;
-      transform: scale(1);
-    }
-  }
+  transform: scale(1);}
+}
 
   .Delay {
+animation: DelayFromtheDeep 10s;
 
-    animation-delay: 2s;
-  }
 
   }
-}
