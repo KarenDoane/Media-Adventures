@@ -86,6 +86,12 @@ font-family: 'Montserrat Alternates', sans-serif;
 .border-color-brown {
   border-color: #650D1B;
 }
+.border-line {
+  border: 2px solid;
+  border-color: #2D1C22;
+  margin: 2rem;
+  padding: 2%;
+}
 .padding-0 {
   padding: 0%;
 }
@@ -147,6 +153,9 @@ font-family: 'Montserrat Alternates', sans-serif;
 .margin-4 {
   margin: 4%;
 }
+.margin-40 {
+  margin: -40px;
+}
 .margin-btom-4 {
   margin-bottom: 4%;
 }
@@ -172,7 +181,7 @@ font-family: 'Montserrat Alternates', sans-serif;
   display: block;
 }
 .page-break {
-  background-image: url("Images/Sunsetsunrise.jpg");
+  background-image: url("Images/karensunset.png");
   background-attachment: fixed;
   /* background-color: #D65E51; */
   background-color: #FFFCE5;
@@ -204,6 +213,9 @@ font-family: 'Montserrat Alternates', sans-serif;
   }
   .banner h2 {
     font-size: 1.7rem;
+  }
+  .banner-h2 {
+    font-size: 2.0rem;
   }
   .border-curve {
     border-radius: 18px;
@@ -300,7 +312,6 @@ font-family: 'Montserrat Alternates', sans-serif;
   background-image: url("images/blogs.jpg");
   display: block;
 }
-}
 .bg-search {
 
   background-size: contain;
@@ -308,6 +319,16 @@ font-family: 'Montserrat Alternates', sans-serif;
   background-repeat: no-repeat;
   padding-bottom: 50%;
   background-image: url("images/search.jpg");
+}
+
+/*Media Queries go here */
+@media (max-width:768px) {
+  h1 {
+    font-size: 11vw;
+  }
+  .FromtheDeep h1 {
+    font-size: 3rem;
+  }
 }
 
 /* Colors go here  */
@@ -357,11 +378,5 @@ font-family: 'Montserrat Alternates', sans-serif;
     animation-delay: 2s;
   }
 
-  }
-}
-
-/*Media Queries go here */
-@media (max-width: 768px) {
-  h1 { font-size: 11vw;
   }
 }
