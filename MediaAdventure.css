@@ -298,18 +298,18 @@ font-family: 'Montserrat Alternates', sans-serif;
 .bg-copywriting {
   background-size:cover;
   padding-bottom: 40%;
-  background-image: url("images/copywriting.jpg");
+  background-image: url("/Images/copywriting.jpg");
 }
 .bg-logo {
   background-size: cover;
   padding-bottom: 40%;
-  background-image: url("images/logo.jpg");
+  background-image: url("/Images/logo.jpg");
   display:block;
 }
 .bg-blogs {
   background-size: cover;
   padding-bottom: 40%;
-  background-image: url(/"Images/blogs.jpg");
+  background-image: url("/Images/blogs.jpg");
   display: block;
 }
 .bg-search {
@@ -318,7 +318,7 @@ font-family: 'Montserrat Alternates', sans-serif;
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 50%;
-  background-image: url("images/search.jpg");
+  background-image: url("/mages/search.jpg");
 }
 
 /*Media Queries go here */
