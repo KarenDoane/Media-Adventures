@@ -181,7 +181,7 @@ font-family: 'Montserrat Alternates', sans-serif;
   display: block;
 }
 .page-break {
-  background-image: url("/Images/karensunset.png");
+  background-image: url("/Images/karensunset.PNG");
   background-attachment: fixed;
   /* background-color: #D65E51; */
   background-color: #FFFCE5;
@@ -318,7 +318,7 @@ font-family: 'Montserrat Alternates', sans-serif;
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 50%;
-  background-image: url("/mages/search.jpg");
+  background-image: url("/Images/search.jpg");
 }
 
 /*Media Queries go here */
