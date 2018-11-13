@@ -181,7 +181,7 @@ font-family: 'Montserrat Alternates', sans-serif;
   display: block;
 }
 .page-break {
-  background-image: url("Images/karensunset.png");
+  background-image: url("/Images/karensunset.png");
   background-attachment: fixed;
   /* background-color: #D65E51; */
   background-color: #FFFCE5;
@@ -192,7 +192,7 @@ font-family: 'Montserrat Alternates', sans-serif;
 
   /* Header styling instructions */
   .banner-strip {
-     background-image: url("Images/Sunsetsunrise.jpg");
+     background-image: url("/Images/Sunsetsunrise.jpg");
     background-color: #445A43;
     background-size: cover;
     color: white;
@@ -200,7 +200,7 @@ font-family: 'Montserrat Alternates', sans-serif;
     min-height: 90vh;
 }
   .banner {
-    background-image: url("Images/sunsetgif.gif");
+    background-image: url("/Images/sunsetgif.gif");
     background-attachment: fixed;
     /* background-color: #D65E51; */
     background-color: #FFFCE5;
@@ -273,27 +273,27 @@ font-family: 'Montserrat Alternates', sans-serif;
 .bg-sunsetgif {
   background-image: cover;
   padding-bottom: 90%;
-  background-image: url("images/sunsetgif.gif")
+  background-image: url("/Images/sunsetgif.gif")
 }
 .bg-girllooking {
   background-size: cover;
   padding-bottom: 90%;
-  background-image: url("images/girllooking.jpg");
+  background-image: url("/Images/girllooking.jpg");
 }
 .bg-newspaperreading {
   background-size: cover;
   padding-bottom: 30%;
-  background-image: url("images/newspaperreading.jpg");
+  background-image: url("/Images/newspaperreading.jpg");
 }
 .bg-headshot {
   background-size: cover;
   padding-bottom:25%;
-  background-image: url("images/headshot.jpg");
+  background-image: url("/Images/headshot.jpg");
 }
 .bg-websites {
   background-size:cover;
   padding-bottom: 40%;
-  background-image: url("images/websites.jpg");
+  background-image: url("/Images/websites.jpg");
 }
 .bg-copywriting {
   background-size:cover;
@@ -309,7 +309,7 @@ font-family: 'Montserrat Alternates', sans-serif;
 .bg-blogs {
   background-size: cover;
   padding-bottom: 40%;
-  background-image: url("images/blogs.jpg");
+  background-image: url(/"Images/blogs.jpg");
   display: block;
 }
 .bg-search {
